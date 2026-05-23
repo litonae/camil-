@@ -1,0 +1,58 @@
+name: barber_camil
+description: "CAMIL - Premium AI Barber Experience"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Actualizado para soportar IA moderna
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Backend & Auth
+  supabase_flutter: ^2.6.0
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+  
+  # UI & Design
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  glassmorphism: ^3.0.0
+  
+  # Features
+  google_maps_flutter: ^2.7.0
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.1.1
+  flip_card: ^0.6.0
+  google_generative_ai: ^0.4.7
+  video_player: ^2.8.1
+  
+  # Utils
+  http: ^1.2.1
+  intl: ^0.19.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    
+  fonts:
+    - family: Sora
+      fonts:
+        - asset: assets/fonts/Sora-Regular.ttf
